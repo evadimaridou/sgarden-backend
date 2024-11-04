@@ -16,7 +16,7 @@
     "dev": "nodemon server.js --watch .",
     "lint": "eslint . --cache",
     "start": "cross-env NODE_ENV=production node server.js",
-    "test": "echo "Error no test found" && exit 0"
+    "test": "echo Error no test found && exit 0"
   },
   "nodemonConfig": {
     "env": {
